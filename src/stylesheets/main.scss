@@ -1,1 +1,41 @@
-// Your styles go here
+@import "@fortawesome/fontawesome-free/css/all.css";
+//Custom variables
+// $primary: rgb(153, 35, 54);
+$my-primary: #944e63;
+$my-secondary: #b47b84;
+$my-tertiary: #caa6a6;
+$my-quarternary: #ffe7e7;
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+  scroll-behavior: smooth;
+  height: 100dvh;
+  background-color: $my-quarternary;
+  padding-bottom: 300px;
+}
+header {
+  img {
+    width: 13rem;
+    height: 13rem;
+  }
+  .mask {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: -50px;
+  }
+}
+
+//CLASSES
+.my-jumbo {
+  background-image: url("../images/slc.jpg");
+  height: 15rem;
+  background-color: aqua;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+.carousel-item {
+  img {
+    max-height: 25rem;
+    // max-width: 800px;
+  }
+}

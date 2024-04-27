@@ -1,16 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
+  <header>
+    <!-- Jumbotron -->
+    <div class="p-5 text-center bg-image my-jumbo">
+      <div class="mask">
+        <div class="d-flex justify-content-between align-items-center h-100">
+          <img src="./images/logo.png" alt="" />
+          <div class="text-white">
+            <h1 class="mb-3">AutoPro</h1>
+            <h4 class="mb-3">903 E 3900 S</h4>
+            <h4 class="mb-3">Salt Lake City, UT</h4>
+            <h4 class="mb-3">Phone:801.262.9952</h4>
+            <h4 class="mb-3">Email: service@autopro.com</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </header>
+  <body class="border container">
+    <!--  Your HTML goes here-->
+    <div class="container border px-5 py-2">
+      <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Services</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Book Appointment</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Contact Us</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">About Us</a>
+      </nav>
+    </div>
+    <div class="text-center">
+      <p>Welcome to AutoPro, your one-stop repair shop.</p>
+      <p>From routine maintenance to engine repair,</p>
+      <p>From tire rotation to transmission overhaul,</p>
+      <p>No repair is too big, No service is too small.</p>
+      <p>All that matters is your satisfaction!</p>
+    </div>
+    <hr />
 
-<head>
-  <meta charset="utf-8">
-  <title>Project Starter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
+    <!-- gpt -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/car1.jpg" class="d-block w-100" alt="Slide 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/car2.jpg" class="d-block w-100" alt="Slide 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/car3.jpg" class="d-block w-100" alt="Slide 3" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/car4.jpg" class="d-block w-100" alt="Slide 4" />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/car5.jpg" class="d-block w-100" alt="Slide 5" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- gpt -->
+    <div>
+      <h1>Current promotions</h1>
+      <ul>
+        <li>Engine tune-up: 10% off</li>
+        <li>Tire rotation and balance</li>
+        <li>Brakes inspection</li>
+        <li>Brakes service</li>
+        <li>$50 off any repair $500 or more</li>
+      </ul>
+    </div>
 
-<body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
-<script type="module" src="./javascripts/main.js"></script>
-</body>
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>
