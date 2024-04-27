@@ -29,13 +29,18 @@ header {
   height: 15rem;
   background-color: aqua;
 }
+// .carousel {
+//   display: flex;
+//   justify-content: center;
+// }
 .carousel {
-  display: flex;
-  justify-content: center;
+  min-width: 600px;
+  //   background-color: green;
 }
+
 .carousel-item {
   img {
     max-height: 25rem;
-    // max-width: 800px;
+    max-width: 800px;
   }
 }
