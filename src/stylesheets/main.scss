@@ -33,6 +33,9 @@ div.mask {
 .my-backgr {
   background: rgb(148, 78, 99);
   background: linear-gradient(45deg, rgba(148, 78, 99, 1) 0%, rgba(180, 123, 132, 1) 35%, rgba(202, 166, 166, 1) 71%);
+  -webkit-box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .my-jumbo {
   background-image: url("../images/slc.jpg");
