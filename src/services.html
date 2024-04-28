@@ -24,16 +24,387 @@
     </div>
     <!-- Jumbotron end-->
   </header>
-  <body class="border container">
-    <!--  Your HTML goes here-->
-    <div class="container border px-5 py-2">
-      <nav class="nav nav-pills flex-column flex-sm-row">
-        <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home</a>
-        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Services</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="book.html">Book Appointment</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact Us</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="about.html">About Us</a>
-      </nav>
-    </div>
+  <body class="border container w-75">
+    <main>
+      <!-- Navigation-->
+      <div class="container border px-5 py-2">
+        <nav class="nav nav-pills flex-column flex-sm-row">
+          <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home</a>
+          <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Services</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="book.html">Book Appointment</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact Us</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="about.html">About Us</a>
+        </nav>
+      </div>
+      <div class="container text-center">
+        <p>AutoPro technicians are trained and equipped to deal with our car service in the most effective way.</p>
+        <p>Regular maintenance of your car is the key to a reliable vehicle. Please, reach out for any question.</p>
+        <p>
+          Click a tile below to learn more about important parts of your car. <em>Source: </em>
+          <a href="https://www.uti.edu/blog/automotive/car-components" target="_blank">Universal Technical Institute</a>
+        </p>
+      </div>
+
+      <!-- Accordion start -->
+      <div class="accordion w-75 m-auto" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <strong> Engine </strong>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Most modern vehicles run on internal combustion engines, which generate energy by igniting a mixture of
+                air and fuel that moves pistons, which in turn move the car. There are also electric motors, which store
+                energy in rechargeable batteries. Vehicles with electric engines accelerate faster than those with
+                fuel-powered engines.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <strong>Battery</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Your car’s battery has several important jobs, including providing your vehicle with power to start when
+                you turn on the ignition. Batteries also ensure that other electrical components in your car work
+                properly.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <strong>Alternator</strong>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                The alternator is responsible for generating electricity. It keeps your battery charged by converting
+                mechanical energy into electrical energy while the car is operating.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              <strong>Brakes</strong>
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Parts in a disc brake system include calipers, rotors and pads. Drum brake systems are comprised of
+                brake drums and shoes. All of these parts have the potential to wear down over time, and any changes to
+                how your brakes sound or feel should lead you to get them checked.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              <strong>Radiator</strong>
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                The radiator is one of the major components of the engine cooling system. It works to remove heat via
+                liquid coolant before it circulates back to your engine. The radiator ensures your engine doesn’t
+                overheat, increasing performance and longevity. You can help maintain your radiator by checking coolant
+                levels at least twice a year.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              <strong>Transmission</strong>
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                The transmission, otherwise known as the car’s gearbox, is what takes the engine’s power and transfers
+                it to the wheels through various components. Without it, you would simply go nowhere! Changing the
+                transmission fluid at the manufacturer’s recommended intervals will help you maintain this important
+                component and prevent it from wearing out.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              <strong>Shock Absorbers</strong>
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                The shock absorbers' main function is to ensure your tires are contacting the road at all times. This
+                allows you to drive the vehicle safely and efficiently. They also help the brakes do their job by always
+                keeping the tires in contact with the road surface. Worn shocks can result in vibrations when you’re
+                driving and uneven tire wear, among other issues.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="false"
+              aria-controls="collapseEight"
+            >
+              <strong>Catalytic Converter</strong>
+            </button>
+          </h2>
+          <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                The catalytic converter helps change harmful compounds in emissions into safe gases before they’re
+                released into the air through your tailpipe. Issues with the catalytic converter can cause a drop in
+                performance and fuel efficiency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNine"
+              aria-expanded="false"
+              aria-controls="collapseNine"
+            >
+              <strong>Monthly Check-up</strong>
+            </button>
+          </h2>
+          <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>Fog lights, turn signals, brake, and parking lights</li>
+                <li>Oil and coolant levels</li>
+                <li>Tire pressure and tread depth</li>
+                <li>Windshield wiper fluid</li>
+              </ul>
+              <em>Source: </em><a href="https://www.kbb.com/car-advice/maintenance-guide/">kbb.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTen"
+              aria-expanded="false"
+              aria-controls="collapseTen"
+            >
+              <strong>3-Month Check-up</strong>
+            </button>
+          </h2>
+          <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>Oil and filters</li>
+                <li>Battery and cables</li>
+                <li>Belts and hoses</li>
+                <li>Power steering fluid</li>
+                <li>Wiper blades</li>
+              </ul>
+              <em>Source: </em><a href="https://www.kbb.com/car-advice/maintenance-guide/">kbb.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEleven"
+              aria-expanded="false"
+              aria-controls="collapseEleven"
+            >
+              <strong>6-Month Check-up</strong>
+            </button>
+          </h2>
+          <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>Rotate tires</li>
+                <li>
+                  Wax vehicle – Wash your car regularly and apply a wax coating at least twice a year to help protect
+                  your car’s finish from rust.
+                </li>
+                <li>Exhaust system – Look for and repair any damage, especially if the muffler is making noise.</li>
+                <li>Battery performance check</li>
+                <li>Chassis lubrication</li>
+              </ul>
+              <em>Source: </em><a href="https://www.kbb.com/car-advice/maintenance-guide/">kbb.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse12"
+              aria-expanded="false"
+              aria-controls="collapse12"
+            >
+              <strong>Long-Term Check-up</strong>
+            </button>
+          </h2>
+          <div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  Transfer case fluid –The transfer case shifts power from the transmission to the axles in a
+                  4-wheel-drive or all-wheel-drive vehicle. Have a professional check transfer case fluid according to
+                  manufacturer recommendations.
+                </li>
+                <li>
+                  Front and rear differentials require lubrication, and a professional should check them according to
+                  manufacturer recommendations.
+                </li>
+                <li>
+                  Change tires – Tires can last from six years to 10 years. Check often for adequate tread depth greater
+                  than 2/32 of an inch.
+                </li>
+                <li>
+                  Battery – Test the battery beginning at three years. It’s time to replace the battery after five
+                  years.
+                </li>
+                <li>
+                  Timing belt – Replace following the owner’s manual guidance, typically between 60,000 and 90,000
+                  miles. Not all vehicles have timing belts. Yours might have a timing chain, which often needs no
+                  periodic maintenance (or replacement) unless there’s an issue.
+                </li>
+              </ul>
+              <em>Source: </em><a href="https://www.kbb.com/car-advice/maintenance-guide/">kbb.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Accordion end -->
+    </main>
+    <!-- Footer start -->
+    <footer class="bg-body-tertiary text-center text-lg-start m-auto">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="index.html!" class="text-body">Home</a>
+              </li>
+              <li>
+                <a href="services.html" class="text-body">Services</a>
+              </li>
+              <li>
+                <a href="book.html" class="text-body">Book Appointment</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-center">
+            <ul class="list-unstyled">
+              <li>
+                <a href="contact.html" class="text-body">Contact Us</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-body">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05)">
+        <p class="text-body" href="#">© 2024 Copyright: Papy Olenga</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script type="module" src="./javascripts/main.js"></script>
   </body>
 </html>

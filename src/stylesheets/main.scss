@@ -7,18 +7,22 @@ $mytertiary: #caa6a6;
 $myquarternary: #ffe7e7;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-body {
-  scroll-behavior: smooth;
-  height: 100dvh;
-  background-color: $myquarternary;
-  padding-bottom: 300px;
-}
 header {
   img {
     width: 13rem;
     height: 13rem;
   }
 }
+body {
+  scroll-behavior: smooth;
+  height: 100dvh;
+  background-color: $myquarternary;
+  padding-bottom: 300px;
+}
+main {
+  //   height: 100dvh;
+}
+
 div.mask {
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: -50px;
