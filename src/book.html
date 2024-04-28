@@ -44,35 +44,49 @@
     </div>
     <div class="container">
       <h1 class="mt-2 text-center">Book appointment now</h1>
-      <form action="" class="w-50 m-auto border py-2 px-5 my-backgr">
+      <form action="" class="w-50 m-auto border py-2 px-5 my-backgr needs-validation" novalidate>
         <div class="mb-3">
           <label for="name" class="form-label">Name:</label>
-          <input type="text" class="form-control" id="name" placeholder="Your name" />
+          <input type="text" class="form-control" id="name" placeholder="Your name" required />
+          <div class="valid-feedback">Looks good!</div>
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email:</label>
-          <input type="text" class="form-control" id="email" placeholder="Your email" />
+          <div class="has-validation">
+            <input
+              type="text"
+              class="form-control"
+              id="email"
+              placeholder="Your email"
+              aria-describedby="inputGroupPrepend"
+              required
+            />
+            <div class="invalid-feedback">Please enter email.</div>
+          </div>
         </div>
         <div class="mb-3">
           <label for="phone" class="form-label">Phone:</label>
-          <input type="text" class="form-control" id="phone" placeholder="_ _ _ - _ _ _ - _ _ _ _" />
+          <input type="text" class="form-control" id="phone" placeholder="_ _ _ - _ _ _ - _ _ _ _" required />
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Please provide a valid phone number.</div>
         </div>
         <div class="mb-3">
           <label for="date">Date:</label>
           <!-- <input type="text" class="form-control" id="date" name="date" /> -->
-          <input type="text" id="datepicker" name="date" size="30" />
+          <input type="text" id="datepicker" name="date" size="30" required />
         </div>
         <div class="mb-3">
           <label for="date">Time:</label>
 
-          <input type="text" id="timepicker" name="time" size="30" />
+          <input type="text" id="timepicker" name="time" size="30" required />
           <!-- <input type="text" class="form-control" id="datepicker" name="date" size="30" /> -->
         </div>
         <div class="col-6">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            Confirm appointment
+            Confirm Appointment
           </button>
+          <!-- <button type="submit" class="btn btn-primary mt-2">Confirm appointment</button> -->
 
           <!-- Modal -->
           <div
