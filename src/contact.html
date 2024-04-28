@@ -36,7 +36,7 @@
       </nav>
     </div>
 
-    <h1 class="mt-5 text-center">Contact us</h1>
+    <h1 class="mt-2 text-center">Contact us</h1>
     <form action="" class="w-50 m-auto border py-2 px-5 mb-2 my-backgr">
       <div class="mb-3">
         <label for="name" class="form-label">Name:</label>
@@ -57,8 +57,42 @@
         <!-- <input type="text-area" class="form-control" id="message" placeholder="Your message" /> -->
       </div>
 
-      <div class="col-6 mt-5 m-auto">
+      <!-- <div class="col-6 mt-5 m-auto">
         <button type="submit" class="btn btn-primary">Send message</button>
+      </div> -->
+      <div class="col-6 mt-4">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Send message
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Good</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Message Sent!</p>
+                <p>We'll get back to your within 1 business day.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </form>
     <hr />
