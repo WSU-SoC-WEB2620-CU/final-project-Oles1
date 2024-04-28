@@ -16,8 +16,12 @@ header {
 body {
   scroll-behavior: smooth;
   height: 100dvh;
-  background-color: $myquarternary;
+  background-color: lighten($myquarternary, 10%);
   padding-bottom: 300px;
+}
+div:has(nav),
+nav {
+  background-color: $mytertiary;
 }
 
 div.mask {
@@ -26,6 +30,10 @@ div.mask {
   width: 100%;
 }
 //CLASSES
+.my-backgr {
+  background: rgb(148, 78, 99);
+  background: linear-gradient(45deg, rgba(148, 78, 99, 1) 0%, rgba(180, 123, 132, 1) 35%, rgba(202, 166, 166, 1) 71%);
+}
 .my-jumbo {
   background-image: url("../images/slc.jpg");
   height: 15rem;
