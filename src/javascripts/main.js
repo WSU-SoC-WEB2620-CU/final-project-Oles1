@@ -7,3 +7,18 @@ require("../stylesheets/main.scss")
 
 import * as fontawesome from "@fortawesome/fontawesome-free/js/all"
 import "bootstrap"
+$(function () {
+  // $("#datepicker").datepicker()
+  $("#datepicker").datepicker({ minDate: +1, maxDate: "+1M +20D" })
+  $("#timepicker").timepicker({
+    timeFormat: "h:mm p",
+    interval: 30,
+    minTime: "08:30",
+    maxTime: "5:00pm",
+    defaultTime: "09",
+    startTime: "08:00",
+    dynamic: false,
+    dropdown: true,
+    scrollbar: true,
+  })
+})
