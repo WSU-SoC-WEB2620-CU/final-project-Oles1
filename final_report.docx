@@ -1,0 +1,17 @@
+There is always something you can do better. Everytime I come back to this project, there is something I want to improve. 
+
+In this project, I am very proud of my use of bootstrap5.  
+
+I am also proud of the Send Message button that triggers a modal window.
+
+Feedbacks:
+
+-There was no hovering effect on the navigation links. I have added that effect to improve user experience. 
+
+-I could have done better with the background color of my pages. The pages are too bright with the white background color. I could have used something closer to a grey background.
+
+-The logo height still flickers when you go from Home page to any other navigation link. That needs improvement.
+
+Advanced features: Carousel - Modal window 
+
+I customized bootstrap by adding scss variables 
