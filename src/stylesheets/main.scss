@@ -27,6 +27,11 @@ form {
   font-weight: $font-weight-bolder;
 }
 
+.nav-link:hover,
+nav-link:focus {
+  background-color: #b47b84;
+}
+
 .mask {
   // background-color: rgba(0, 0, 0, 0.4);
   margin-top: -50px;
